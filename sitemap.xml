@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://grasshoff.github.io/guide/guide.html</loc>
-    <lastmod>2023-01-22T08:58:10.350Z</lastmod>
+    <loc>https://grasshoff.github.io/guide/posts/guide.html</loc>
+    <lastmod>2023-01-22T16:56:53.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grasshoff.github.io/guide/posts/layout.html</loc>
+    <lastmod>2023-01-22T16:56:53.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grasshoff.github.io/guide/posts/quickstart.html</loc>
+    <lastmod>2023-01-22T16:56:53.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grasshoff.github.io/guide/index.html</loc>
+    <lastmod>2023-01-22T16:56:54.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grasshoff.github.io/guide/about.html</loc>
+    <lastmod>2023-01-22T16:56:54.368Z</lastmod>
   </url>
   <url>
     <loc>https://grasshoff.github.io/guide/aboud.html</loc>
-    <lastmod>2023-01-22T08:58:10.556Z</lastmod>
+    <lastmod>2023-01-22T16:56:54.552Z</lastmod>
   </url>
 </urlset>
