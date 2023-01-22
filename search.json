@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "Guide to EulerGPT",
+    "section": "",
+    "text": "plattform for working with Leonhard Euler’s Opera Omnia, letters and other writings\nall texts are available open access\nEulerGPT is a tool for text analysis and text generation\n\nmost advanced synthesis of NLP models, semantic search, and knowledge graphs and the latest advances in AI and ML\nuses reinforcement learning to continuously improve the models\n\nAmbitious goal\n\nto create a next generation digital edition of Euler’s Opera Omnia\nsemantic search for content and not just strings\ntranslation to many languages on the fly\nexplanations of Euler’s reasoning\nbiographical context\nreference to curated secondary literature\n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "aboud.html",
+    "href": "aboud.html",
+    "title": "guide",
+    "section": "",
+    "text": "#j"
+  }
+]
