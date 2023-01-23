@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "posts/guide.html",
-    "href": "posts/guide.html",
-    "title": "What is EulerGPT?",
-    "section": "",
-    "text": "EulerGPT is the most advanced AI-based research platform for working with Leonhard Euler’s writings and correspondence, the Euler Opera Omnia. The Euler Opera Omnia were completed in 2022 after 110 years of editorial work by the Euler Commission of the Swiss Academy of Sciences. All 82 volumes with more than 850 publications have been digitised and are open access available, as well as Euler’s correspondence with scholars of his time.\nThe Euler Opera Omnia project will be integrated into an even more ambitious digital edition of the work of Euler and the eminent scholars of the Bernoulli family as Opera Bernoulli Euler (OBE). The OBE will be the most comprehensive digital edition of the works of Euler and the Bernoulli family ever assembled and will be an invaluable resource for scholars and researchers.\nEulerGPT is a computational tool for text analysis and text generation. It uses the most advanced synthesis of NLP models, semantic search, and knowledge graphs and the latest advances in AI and ML. The much hyped OpenAI model GPT 3.5 is integrated into out powerful deep reading model. It uses reinforcement learning to continuously improve the models. The goal is to create a next generation digital edition of Euler’s Opera Omnia, with semantic search for content and not just strings, translation to many languages on the fly, explanations of Euler’s reasoning, biographical context, and reference to curated secondary literature.\nOne of the key features of the new digital edition is semantic search, which allows users to search for content, not just strings of text. This means that users can search for concepts, ideas, and mathematical formulas rather than just specific words or phrases. This greatly improves the accuracy and usefulness of search results.\nAnother important feature of the new digital edition is the ability to translate the text on the fly into many different languages. This makes Euler’s work more accessible to researchers and students who may not be fluent in Latin, the language in which most of Euler’s work was written.\nThe new digital edition also includes explanations of Euler’s reasoning and mathematical proofs, which can help readers better understand the work. Additionally, it provides biographical context, which helps readers understand the historical and personal context in which Euler’s work was written.\nFinally, the new digital edition includes references to curated secondary literature, which can provide further reading and research opportunities for those interested in learning more about Euler’s work.\nThe Euler Opera Omnia project is a significant undertaking that requires the collaboration of many experts in mathematics, computer science, and digital humanities. But if successful, it will make Euler’s work more accessible and easier to study than ever before, and it will greatly benefit the mathematical community and the general public.\n\nHow to use EulerGPT\nEulerGPT is a web application that can be used in a browser. It is available at enestroem.lettre.digital."
-  },
-  {
-    "objectID": "posts/layout.html",
-    "href": "posts/layout.html",
-    "title": "Layout of webpage",
-    "section": "",
-    "text": "Layout of webpage"
-  },
-  {
-    "objectID": "posts/quickstart.html",
-    "href": "posts/quickstart.html",
-    "title": "Guide to EulerGPT",
-    "section": "",
-    "text": "It is available at enestroem.lettre.digital."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "User guide to EulerGPT",
     "section": "",
-    "text": "What is EulerGPT?\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLayout of webpage\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
