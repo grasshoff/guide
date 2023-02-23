@@ -1,5 +1,33 @@
 project:
-  title: "guide"
+  type: website
 
+website: 
+  title: "Computational Books"
+  navbar: 
+    background: beige
+    left:
+      - collection.qmd
+      - directories.qmd
+      - tools.qmd
+      - todo.qmd
+
+toc: true
+number-sections: true
+#bibliography: [./biblio/Florentinus.bib,./biblio/seminar.bib]  
+#csl: econsocart.cls
+
+
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    single-page: false
+    before_body: '<script>document.querySelector("video").play();</script>'
+    page-layout: full
+    toc: true
+    fontsize: 1.0em
+    html-math-method: katex
+    toc-location: left
+    code-fold: true
 
 
