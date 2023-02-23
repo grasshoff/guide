@@ -1,0 +1,106 @@
+---
+title-block-banner: false
+author: Gerd Graßhoff
+title: Tools
+date: 2/23/2023
+code-line-numbers: true
+number-sections: true
+execute: 
+  enabled: false
+format:
+  html:
+    toc-title: Contents
+    smooth-scroll: true
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    code-fold: true
+preview:
+    port: 4200
+---
+
+# Layout, Quarto
+
+## Themes
+
+- [Bootstrap themes](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/html/bootstrap/themes)
+
+# Python
+
+# Spacy
+
+
+
+# Graphics
+
+:::{.callout-tip}
+## tools
+
+- [mermaid](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)
+- [mermaid live](https://mermaid.live/edit#pako:eNpVkE1qw0AMha8itEohvoAXhcZOsgmk0Ow8WQiPnBmS-WEsU4Ltu3ccU2i1kt77nhAasQ2ascRbomjgUisPuT6ayiTbi6P-CkXxPh1ZwAXPzwl2m2OA3oQYrb-9rfxugaAaTwvGIMb6-7xa1St_9jxB3ZwoSojXv87lO0ywb-ynyev_OyZxTh2ajsqOipYSVJReCG7RcXJkdT59XBSFYtixwjK3mjsaHqJQ-TmjQ9QkvNdWQsJS0sBbpEHC19O3v_PK1JbyI9wqzj8k-lxH)
+:::
+
+
+```{mermaid}
+flowchart LR
+    id1 --> jd1
+    id2 --> jd2
+    jd1 --> id3
+    jd2 --> id3 
+    subgraph biblatex format
+    id3[biblio bib]
+    end
+    subgraph yaml
+    jd1[qmd header]
+    jd2[ipynb raw yaml]
+    end
+    subgraph documents
+    id1[quarto qmd]
+    id2[notebooks ipynb]
+
+    end
+```
+
+
+# Bibtex
+
+:::{.callout-tip}
+## Biblatex
+
+- [Biblatex](http://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf)
+:::
+
+# Reference
+
+## PDF server
+
+The collections are located in a root directory that is located in a Dropbox as “SiteDev”. It is synchronized with server deployments. 
+
+The file server publishes the collection directory as an tomcat http server. It has the cname
+
+```
+https://compbooks.lettre.digital/
+```
+
+### Bibtex
+
+:::{.callout-note}
+The Bibtex files for each collection resides in the root directory. If missing, the collection will not be included into the registry of works.
+
+:::
+
+- jabref, export eine Sammlung mit BibLaTeX
+
+- notebook
+
+  Any other program can create a bibtex.bib file which contains as filename the PDF file from the directory anywhere in the file hierarchy. 
+
+### Create bibtex yaml, bibcollector
+
+:::{.callout-note}
+The Bibtex files will all be listed in a yaml file of the root directory of the collections
+:::
+
+
+The Fileserver administers the http REST API for the pdf viewer. The server requires a yaml file listing all collections with metadata, as gathered from the bibtex files. The yaml file needs to be accessible to the server.
+

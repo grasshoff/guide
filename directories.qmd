@@ -1,0 +1,118 @@
+---
+title-block-banner: false
+author: Gerd Graßhoff
+title: Directories
+subtitle: compbook data organisation
+date: 8/29/2022
+code-line-numbers: true
+number-sections: true
+execute: 
+  enabled: false
+format:
+  html:
+    toc-title: Data
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    code-fold: true
+    navbar: 
+       background: lightgrey
+preview:
+    port: 4200
+---
+
+# Site
+
+The collections are stored in a directory that is made available via an HTTP server. It mirrors the directory structure of the SiteDev/ directory tree. 
+
+
+The collections are located in a root directory that is located in a Dropbox as “Site” and synchronized from there to different machines -- currently the project server ``lettre.digital''. 
+
+```
+https://compbooks.lettre.digital/
+```
+ 
+The collections are organized in subdirectories. The subdirectories are named after the collection name. The subdirectories contain the following files:
+
+
+ The URL refers to the source list of all sources.
+
+
+# Development
+## Development "compbooks" directory
+
+
+```{mermaid}
+graph LR
+    root[compbooks] --> 1[documentation]
+    root --> 2[notebooks]
+    root --> 3[streamlit]
+    root --> 4[snippets]
+    root --> 5[biblio]
+    root --> 6[settings]
+    subgraph 2g[notebooks]
+      3 --> 31[notebook-1.ipynb]
+      3 --> 32[notebook-2.ipynb]
+    end
+    subgraph 3g[streamlit apps]
+      2 --> 21[app-1]
+      2 --> 22[app-2]
+    end
+    subgraph 1g[compbooks working directory]
+      1
+    end
+    click root "https://lettre.digital"
+
+linkStyle 0,1,2,3,4,5,6 stroke-width:1px;
+
+style 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;
+style 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
+style 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
+```
+
+
+
+## Directory of work collections
+
+- "sources" integrated as web/sources in the file server directory
+
+- The collection contains all pdf of works, organised in flat directories by collections.
+
+- Metadata are stored in biblatex format in the collection directory and are named [collection].bib
+
+
+```{mermaid}
+graph LR
+    root[collection] --> 1[collection.bib]
+    root --> 2[works]
+    root --> 3[notebooks]
+    subgraph 3g[All project notebooks.]
+      3 --> 31[notebook-1.ipynb]
+      3 --> 32[notebook-2.ipynb]
+    end
+    subgraph 2g[All works of the collection]
+      2 --> 21[work-1]
+      2 --> 22[work-2]
+    end
+    subgraph 1g[collection metadata]
+      1
+    end
+    click root "https://gitlab.com/joaommpalmeiro/diagram-scratchpad"
+    click 1 "https://gitlab.com/joaommpalmeiro/diagram-scratchpad/blob/master/README.md"
+
+linkStyle 0,1,2,3,4,5,6 stroke-width:1px;
+
+style 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;
+style 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
+style 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
+```
+
+
+
+
+
+## MongoDB
+
+- Database storage of compbooks
+
+

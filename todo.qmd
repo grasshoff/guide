@@ -1,0 +1,30 @@
+# Todo
+
+## eulerLettreDigital.py
+
+### code
+
+in grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.
+
+### Opera Bernoulli Euler
+
+* [ ] Unterhalb des logos sollte ein Titel "Opera Bernoulli Euler" stehen
+
+### Scholarium
+
+* [ ] Anstelle "Euler Literatur" -> "Literature"
+
+* [ ] euler_sec.bib
+
+Die bibliografische  Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte entsprechend aktuelle angezeigt werden.
+
+### Notebook
+
+* [ ] Wo ist das Verzeichnis für die html Dateien?
+
+* [ ] Angezeigt werden sollte nur das file.stem, nicht das suffix
+
+### Help
+
+* [ ] Ich hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten
+
