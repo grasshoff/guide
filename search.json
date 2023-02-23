@@ -61,5 +61,12 @@
     "title": "Computational Books",
     "section": "",
     "text": "1 Development site\nThis site contains python code as notebooks and streamlit apps for computation books as well as its documentation."
+  },
+  {
+    "objectID": "collection.html",
+    "href": "collection.html",
+    "title": "1 Web address",
+    "section": "",
+    "text": "1 Web address\nThe OBE repository link is https://euler.lettre.digital\n\n\n2 Series and volumes\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)"
   }
 ]
