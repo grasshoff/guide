@@ -30,37 +30,37 @@
   {
     "objectID": "directories.html",
     "href": "directories.html",
-    "title": "Directories",
+    "title": "1 Site",
     "section": "",
     "text": "The collections are stored in a directory that is made available via an HTTP server. It mirrors the directory structure of the SiteDev/ directory tree.\nThe collections are located in a root directory that is located in a Dropbox as “Site” and synchronized from there to different machines – currently the project server ``lettre.digital’’.\nhttps://compbooks.lettre.digital/\nThe collections are organized in subdirectories. The subdirectories are named after the collection name. The subdirectories contain the following files:\nThe URL refers to the source list of all sources."
   },
   {
     "objectID": "directories.html#development-compbooks-directory",
     "href": "directories.html#development-compbooks-directory",
-    "title": "Directories",
+    "title": "1 Site",
     "section": "2.1 Development “compbooks” directory",
     "text": "2.1 Development “compbooks” directory\n\n\n\n\ngraph LR\n    root[compbooks] --&gt; 1[documentation]\n    root --&gt; 2[notebooks]\n    root --&gt; 3[streamlit]\n    root --&gt; 4[snippets]\n    root --&gt; 5[biblio]\n    root --&gt; 6[settings]\n    subgraph 2g[notebooks]\n      3 --&gt; 31[notebook-1.ipynb]\n      3 --&gt; 32[notebook-2.ipynb]\n    end\n    subgraph 3g[streamlit apps]\n      2 --&gt; 21[app-1]\n      2 --&gt; 22[app-2]\n    end\n    subgraph 1g[compbooks working directory]\n      1\n    end\n    click root \"https://lettre.digital\"\n\nlinkStyle 0,1,2,3,4,5,6 stroke-width:1px;\n\nstyle 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;\nstyle 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;\nstyle 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;"
   },
   {
     "objectID": "directories.html#directory-of-work-collections",
     "href": "directories.html#directory-of-work-collections",
-    "title": "Directories",
+    "title": "1 Site",
     "section": "2.2 Directory of work collections",
     "text": "2.2 Directory of work collections\n\n“sources” integrated as web/sources in the file server directory\nThe collection contains all pdf of works, organised in flat directories by collections.\nMetadata are stored in biblatex format in the collection directory and are named [collection].bib\n\n\n\n\n\ngraph LR\n    root[collection] --&gt; 1[collection.bib]\n    root --&gt; 2[works]\n    root --&gt; 3[notebooks]\n    subgraph 3g[All project notebooks.]\n      3 --&gt; 31[notebook-1.ipynb]\n      3 --&gt; 32[notebook-2.ipynb]\n    end\n    subgraph 2g[All works of the collection]\n      2 --&gt; 21[work-1]\n      2 --&gt; 22[work-2]\n    end\n    subgraph 1g[collection metadata]\n      1\n    end\n    click root \"https://gitlab.com/joaommpalmeiro/diagram-scratchpad\"\n    click 1 \"https://gitlab.com/joaommpalmeiro/diagram-scratchpad/blob/master/README.md\"\n\nlinkStyle 0,1,2,3,4,5,6 stroke-width:1px;\n\nstyle 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;\nstyle 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;\nstyle 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;"
   },
   {
     "objectID": "directories.html#mongodb",
     "href": "directories.html#mongodb",
-    "title": "Directories",
+    "title": "1 Site",
     "section": "2.3 MongoDB",
     "text": "2.3 MongoDB\n\nDatabase storage of compbooks"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Computational Books",
+    "title": "Euler AI",
     "section": "",
-    "text": "1 Development site\nThis site contains python code as notebooks and streamlit apps for computation books as well as its documentation."
+    "text": "1 Live version\nThis portal contains apps related to the digital analysis and tools related to the oevre of Leonhard Euler and the Bernoulli family. It will be updated regularly with new apps and the latest innovations in AI related to scientific texts."
   },
   {
     "objectID": "collection.html",
