@@ -1,23 +1,65 @@
 [
   {
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "guide",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Bootstrap themes"
+  },
+  {
+    "objectID": "tools.html#pdf-server",
+    "href": "tools.html#pdf-server",
+    "title": "Tools",
+    "section": "6.1 PDF server",
+    "text": "6.1 PDF server\nThe collections are located in a root directory that is located in a Dropbox as “SiteDev”. It is synchronized with server deployments.\nThe file server publishes the collection directory as an tomcat http server. It has the cname\nhttps://compbooks.lettre.digital/\n\n6.1.1 Bibtex\n\n\n\n\n\n\nNote\n\n\n\nThe Bibtex files for each collection resides in the root directory. If missing, the collection will not be included into the registry of works.\n\n\n\njabref, export eine Sammlung mit BibLaTeX\nnotebook\nAny other program can create a bibtex.bib file which contains as filename the PDF file from the directory anywhere in the file hierarchy.\n\n\n\n6.1.2 Create bibtex yaml, bibcollector\n\n\n\n\n\n\nNote\n\n\n\nThe Bibtex files will all be listed in a yaml file of the root directory of the collections\n\n\nThe Fileserver administers the http REST API for the pdf viewer. The server requires a yaml file listing all collections with metadata, as gathered from the bibtex files. The yaml file needs to be accessible to the server."
+  },
+  {
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "1 Todo",
+    "section": "",
+    "text": "in grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte entsprechend aktuelle angezeigt werden.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten"
+  },
+  {
+    "objectID": "directories.html",
+    "href": "directories.html",
+    "title": "Directories",
+    "section": "",
+    "text": "The collections are stored in a directory that is made available via an HTTP server. It mirrors the directory structure of the SiteDev/ directory tree.\nThe collections are located in a root directory that is located in a Dropbox as “Site” and synchronized from there to different machines – currently the project server ``lettre.digital’’.\nhttps://compbooks.lettre.digital/\nThe collections are organized in subdirectories. The subdirectories are named after the collection name. The subdirectories contain the following files:\nThe URL refers to the source list of all sources."
+  },
+  {
+    "objectID": "directories.html#development-compbooks-directory",
+    "href": "directories.html#development-compbooks-directory",
+    "title": "Directories",
+    "section": "2.1 Development “compbooks” directory",
+    "text": "2.1 Development “compbooks” directory\n\n\n\n\ngraph LR\n    root[compbooks] --&gt; 1[documentation]\n    root --&gt; 2[notebooks]\n    root --&gt; 3[streamlit]\n    root --&gt; 4[snippets]\n    root --&gt; 5[biblio]\n    root --&gt; 6[settings]\n    subgraph 2g[notebooks]\n      3 --&gt; 31[notebook-1.ipynb]\n      3 --&gt; 32[notebook-2.ipynb]\n    end\n    subgraph 3g[streamlit apps]\n      2 --&gt; 21[app-1]\n      2 --&gt; 22[app-2]\n    end\n    subgraph 1g[compbooks working directory]\n      1\n    end\n    click root \"https://lettre.digital\"\n\nlinkStyle 0,1,2,3,4,5,6 stroke-width:1px;\n\nstyle 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;\nstyle 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;\nstyle 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;"
+  },
+  {
+    "objectID": "directories.html#directory-of-work-collections",
+    "href": "directories.html#directory-of-work-collections",
+    "title": "Directories",
+    "section": "2.2 Directory of work collections",
+    "text": "2.2 Directory of work collections\n\n“sources” integrated as web/sources in the file server directory\nThe collection contains all pdf of works, organised in flat directories by collections.\nMetadata are stored in biblatex format in the collection directory and are named [collection].bib\n\n\n\n\n\ngraph LR\n    root[collection] --&gt; 1[collection.bib]\n    root --&gt; 2[works]\n    root --&gt; 3[notebooks]\n    subgraph 3g[All project notebooks.]\n      3 --&gt; 31[notebook-1.ipynb]\n      3 --&gt; 32[notebook-2.ipynb]\n    end\n    subgraph 2g[All works of the collection]\n      2 --&gt; 21[work-1]\n      2 --&gt; 22[work-2]\n    end\n    subgraph 1g[collection metadata]\n      1\n    end\n    click root \"https://gitlab.com/joaommpalmeiro/diagram-scratchpad\"\n    click 1 \"https://gitlab.com/joaommpalmeiro/diagram-scratchpad/blob/master/README.md\"\n\nlinkStyle 0,1,2,3,4,5,6 stroke-width:1px;\n\nstyle 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;\nstyle 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;\nstyle 3g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;"
+  },
+  {
+    "objectID": "directories.html#mongodb",
+    "href": "directories.html#mongodb",
+    "title": "Directories",
+    "section": "2.3 MongoDB",
+    "text": "2.3 MongoDB\n\nDatabase storage of compbooks"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "User guide to EulerGPT",
+    "title": "Computational Books",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "aboud.html",
-    "href": "aboud.html",
-    "title": "Guide to EulerGPT",
-    "section": "",
-    "text": "#j"
+    "text": "1 Development site\nThis site contains python code as notebooks and streamlit apps for computation books as well as its documentation."
   }
 ]
