@@ -25,7 +25,7 @@
     "href": "todo.html",
     "title": "1 Todo",
     "section": "",
-    "text": "in grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte entsprechend aktuelle angezeigt werden.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten"
+    "text": "Die Tabelle sollte einspaltig angezeigt werden, nicht zweispaltig. Immer noch mit merkwürdiger Zeilenformatierung\n\n\n\n\nin grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte entsprechend aktuelle angezeigt werden.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten"
   },
   {
     "objectID": "directories.html",
@@ -65,8 +65,8 @@
   {
     "objectID": "collection.html",
     "href": "collection.html",
-    "title": "1 Web address",
+    "title": "1 Guide",
     "section": "",
-    "text": "1 Web address\nThe OBE repository link is https://euler.lettre.digital\n\n\n2 Series and volumes\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)"
+    "text": "The OBE repository link is https://euler.lettre.digital\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)"
   }
 ]
