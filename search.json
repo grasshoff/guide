@@ -65,8 +65,8 @@
   {
     "objectID": "collection.html",
     "href": "collection.html",
-    "title": "Euler Opera Omnia",
+    "title": "Euler Opera Omnia, Documentviewer",
     "section": "",
-    "text": "Reference for all volumes of Euler Opera Omnia\nhttps://euler.lettre.digital\n\n\n\n\n\n\nResize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width\n\n\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
+    "text": "App to view and search all volumes of Euler Opera Omnia\nhttps://euler.lettre.digital\n\n\n\nDisplay all Volumes as PDF, downloadable\nPDF segmented in Enestroem parts, Introductions and Appendices to speed up loading times\nHigh-performance search through all volumes\n\nSearch table\n\ncan be filtered by column values\ncan be downloaded as csv\nInteractive selection to open referenced volumes\n\n\nDeployment\n\nApp can be flexibly deployed on any server\nFast PDF server\n\n\n\n\n\n\n\n\n\nResize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width\n\n\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
   }
 ]
