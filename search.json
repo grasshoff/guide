@@ -23,9 +23,9 @@
   {
     "objectID": "todo.html",
     "href": "todo.html",
-    "title": "1 Todo",
+    "title": "Todo",
     "section": "",
-    "text": "Die Tabelle sollte einspaltig angezeigt werden, nicht zweispaltig. Immer noch mit merkwürdiger Zeilenformatierung\n\n\n\n\n\nin grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte aktuell den Bestand anzeigen.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten\n\nguide.lettre.digital"
+    "text": "Grundsätzlich erst einmal die volle Spalte für die Funktion\n\nAnsicht der vollen Spalten\n\n– Bei starten der App sollte die Tabelle mit den Opera Omnia\n– Bei Auswahl eines Dokuments sollte die volle Spalte des PDFs angezeigt werden\n– Bei Enestroem zunächst die volle Spalte\n– Bei Enestrom Auswahl sollte die volle Spalte des PDFs angezeigt werden\n\n\n\nTextspalten breiter, gerade für die volle Spalte\n\n\n\n\n\n\n\nDie Tabelle sollte einspaltig angezeigt werden, nicht zweispaltig. Immer noch mit merkwürdiger Zeilenformatierung\n\n\n\n\n\nin grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte aktuell den Bestand anzeigen.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten\n\nguide.lettre.digital"
   },
   {
     "objectID": "directories.html",
@@ -60,13 +60,13 @@
     "href": "index.html",
     "title": "Euler AI",
     "section": "",
-    "text": "1 Live version\nThis portal contains apps related to the digital analysis and tools related to the oevre of Leonhard Euler and the Bernoulli family. It will be updated regularly with new apps and the latest innovations in AI related to scientific texts."
+    "text": "Live version\nThis portal contains apps related to the digital analysis and tools related to the oevre of Leonhard Euler and the Bernoulli family. It will be updated regularly with new apps and the latest innovations in AI related to scientific texts."
   },
   {
     "objectID": "collection.html",
     "href": "collection.html",
-    "title": "1 Euler Opera Omnia",
+    "title": "Euler Opera Omnia",
     "section": "",
-    "text": "https://euler.lettre.digital\n\n\n\nResize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width\n\n\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
+    "text": "Reference for all volumes of Euler Opera Omnia\nhttps://euler.lettre.digital\n\n\n\n\n\n\nResize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width\n\n\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
   }
 ]
