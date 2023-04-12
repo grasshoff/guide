@@ -39,14 +39,14 @@
     "href": "todo.html",
     "title": "Todo",
     "section": "",
-    "text": "sidebar\n\nBEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\nbutton für submit\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\n\n\nguide.lettre.digital"
+    "text": "BEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
   },
   {
     "objectID": "todo.html#eulergpt",
     "href": "todo.html#eulergpt",
     "title": "Todo",
     "section": "",
-    "text": "sidebar\n\nBEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\nbutton für submit\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\n\n\nguide.lettre.digital"
+    "text": "BEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
   },
   {
     "objectID": "directories.html",
