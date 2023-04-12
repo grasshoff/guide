@@ -39,21 +39,14 @@
     "href": "todo.html",
     "title": "Todo",
     "section": "",
-    "text": "Grundsätzlich erst einmal die volle Spalte für die Funktion\n\nAnsicht der vollen Spalten\n\n– Bei starten der App sollte die Tabelle mit den Opera Omnia\n– Bei Auswahl eines Dokuments sollte die volle Spalte des PDFs angezeigt werden\n– Bei Enestroem zunächst die volle Spalte\n– Bei Enestrom Auswahl sollte die volle Spalte des PDFs angezeigt werden\n\n\n\nTextspalten breiter, gerade für die volle Spalte\n\n\n\n\n\n\n\nDie Tabelle sollte einspaltig angezeigt werden, nicht zweispaltig. Immer noch mit merkwürdiger Zeilenformatierung\n\n\n\n\n\nin grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte aktuell den Bestand anzeigen.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten\n\nguide.lettre.digital"
+    "text": "sidebar\n\nBEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\n\n\ncached load für\n\nguide.lettre.digital"
   },
   {
-    "objectID": "todo.html#eulerlettredigital.py",
-    "href": "todo.html#eulerlettredigital.py",
+    "objectID": "todo.html#eulergpt",
+    "href": "todo.html#eulergpt",
     "title": "Todo",
     "section": "",
-    "text": "Grundsätzlich erst einmal die volle Spalte für die Funktion\n\nAnsicht der vollen Spalten\n\n– Bei starten der App sollte die Tabelle mit den Opera Omnia\n– Bei Auswahl eines Dokuments sollte die volle Spalte des PDFs angezeigt werden\n– Bei Enestroem zunächst die volle Spalte\n– Bei Enestrom Auswahl sollte die volle Spalte des PDFs angezeigt werden\n\n\n\nTextspalten breiter, gerade für die volle Spalte"
-  },
-  {
-    "objectID": "todo.html#woche-21.feb.2023",
-    "href": "todo.html#woche-21.feb.2023",
-    "title": "Todo",
-    "section": "",
-    "text": "Die Tabelle sollte einspaltig angezeigt werden, nicht zweispaltig. Immer noch mit merkwürdiger Zeilenformatierung\n\n\n\n\n\nin grids.py musste ich st.cache auskommentieren, da es sonst nicht funktioniert hat.\n\n\n\n\nUnterhalb des logos sollte ein Titel “Opera Bernoulli Euler” stehen\n\n\n\n\n\nAnstelle “Euler Literatur” -&gt; “Literature”\neuler_sec.bib\n\nDie bibliografische Datenbank sollte aus SiteDev geladen werden, dort liegt einen aktuelle Version vor. verdun2015 ist neu hinzugefügt werden und sollte aktuell den Bestand anzeigen.\n\n\n\n\nWo ist das Verzeichnis für die html Dateien?\nAngezeigt werden sollte nur das file.stem, nicht das suffix\n\n\n\n\n\nIch hatte schon einmal eine Hilfe in die Sidebar eingebaut. Diese sollte wieder eingebaut werden. Die enthielt auch eine Beschreibung der Spalten\n\nguide.lettre.digital"
+    "text": "sidebar\n\nBEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\n\n\ncached load für\n\nguide.lettre.digital"
   },
   {
     "objectID": "directories.html",
