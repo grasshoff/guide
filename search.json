@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "gui.html",
+    "href": "gui.html",
+    "title": "Todo",
+    "section": "",
+    "text": "BEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
+  },
+  {
+    "objectID": "gui.html#eulergpt",
+    "href": "gui.html#eulergpt",
+    "title": "Todo",
+    "section": "",
+    "text": "BEG Logo\nZweispaltiges Layout, mit switchbuttons in sidebar\nselectbox für\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning\n\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
+  },
+  {
     "objectID": "guide.html",
     "href": "guide.html",
     "title": "Euler AI",
@@ -32,7 +46,7 @@
     "href": "tools.html#pdf-server",
     "title": "Tools",
     "section": "6.1 PDF server",
-    "text": "6.1 PDF server\nThe collections are located in a root directory that is located in a Dropbox as “SiteDev”. It is synchronized with server deployments.\nThe file server publishes the collection directory as an tomcat http server. It has the cname\nhttps://compbooks.lettre.digital/\n\n6.1.1 Bibtex\n\n\n\n\n\n\nNote\n\n\n\nThe Bibtex files for each collection resides in the root directory. If missing, the collection will not be included into the registry of works.\n\n\n\njabref, export eine Sammlung mit BibLaTeX\nnotebook\nAny other program can create a bibtex.bib file which contains as filename the PDF file from the directory anywhere in the file hierarchy.\n\n\n\n6.1.2 Create bibtex yaml, bibcollector\n\n\n\n\n\n\nNote\n\n\n\nThe Bibtex files will all be listed in a yaml file of the root directory of the collections\n\n\nThe Fileserver administers the http REST API for the pdf viewer. The server requires a yaml file listing all collections with metadata, as gathered from the bibtex files. The yaml file needs to be accessible to the server."
+    "text": "6.1 PDF server\nThe collections are located in a root directory that is located in a Dropbox as “SiteDev”. It is synchronized with server deployments.\nThe file server publishes the collection directory as an tomcat http server. It has the cname\nhttps://compbooks.lettre.digital/\n\n6.1.1 Bibtex\n\n\n\n\n\n\n\n\n\n\nThe Bibtex files for each collection resides in the root directory. If missing, the collection will not be included into the registry of works.\n\n\n\njabref, export eine Sammlung mit BibLaTeX\nnotebook\nAny other program can create a bibtex.bib file which contains as filename the PDF file from the directory anywhere in the file hierarchy.\n\n\n\n6.1.2 Create bibtex yaml, bibcollector\n\n\n\n\n\n\n\n\n\n\nThe Bibtex files will all be listed in a yaml file of the root directory of the collections\n\n\nThe Fileserver administers the http REST API for the pdf viewer. The server requires a yaml file listing all collections with metadata, as gathered from the bibtex files. The yaml file needs to be accessible to the server."
   },
   {
     "objectID": "todo.html",
