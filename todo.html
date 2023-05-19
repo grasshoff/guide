@@ -103,21 +103,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#todo" id="toc-todo" class="nav-link active" data-scroll-target="#todo">Todo</a>
+  <li><a href="#todo" id="toc-todo" class="nav-link active" data-scroll-target="#todo"><span class="header-section-number">1</span> Todo</a>
   <ul class="collapse">
-  <li><a href="#sidebar" id="toc-sidebar" class="nav-link" data-scroll-target="#sidebar">sidebar</a>
+  <li><a href="#sidebar" id="toc-sidebar" class="nav-link" data-scroll-target="#sidebar"><span class="header-section-number">1.1</span> sidebar</a>
   <ul class="collapse">
-  <li><a href="#works" id="toc-works" class="nav-link" data-scroll-target="#works">works</a></li>
-  <li><a href="#segment-selector" id="toc-segment-selector" class="nav-link" data-scroll-target="#segment-selector">segment selector</a></li>
+  <li><a href="#works" id="toc-works" class="nav-link" data-scroll-target="#works"><span class="header-section-number">1.1.1</span> works</a></li>
+  <li><a href="#segment-selector" id="toc-segment-selector" class="nav-link" data-scroll-target="#segment-selector"><span class="header-section-number">1.1.2</span> segment selector</a></li>
+  <li><a href="#ui" id="toc-ui" class="nav-link" data-scroll-target="#ui"><span class="header-section-number">1.1.3</span> UI</a></li>
+  <li><a href="#prompt" id="toc-prompt" class="nav-link" data-scroll-target="#prompt"><span class="header-section-number">1.1.4</span> prompt</a></li>
   </ul></li>
-  <li><a href="#ui-sidebar" id="toc-ui-sidebar" class="nav-link" data-scroll-target="#ui-sidebar">UI Sidebar</a>
-  <ul class="collapse">
-  <li><a href="#prompt" id="toc-prompt" class="nav-link" data-scroll-target="#prompt">prompt</a></li>
-  </ul></li>
-  <li><a href="#notebooks-for-processing" id="toc-notebooks-for-processing" class="nav-link" data-scroll-target="#notebooks-for-processing">Notebooks for processing</a>
-  <ul class="collapse">
-  <li><a href="#mathpix" id="toc-mathpix" class="nav-link" data-scroll-target="#mathpix">mathpix</a></li>
-  </ul></li>
+  <li><a href="#notebooks-for-processing" id="toc-notebooks-for-processing" class="nav-link" data-scroll-target="#notebooks-for-processing"><span class="header-section-number">1.2</span> Notebooks for processing</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -131,27 +126,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="todo" class="level1">
-<h1>Todo</h1>
-<section id="sidebar" class="level2">
-<h2 class="anchored" data-anchor-id="sidebar">sidebar</h2>
-<section id="works" class="level3">
-<h3 class="anchored" data-anchor-id="works">works</h3>
+<section id="todo" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Todo</h1>
+<section id="sidebar" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="sidebar"><span class="header-section-number">1.1</span> sidebar</h2>
+<section id="works" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="works"><span class="header-section-number">1.1.1</span> works</h3>
 <ul>
 <li>die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]</li>
 <li>die .lines.md ist im gleichen verzeichnis</li>
 <li>daraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen</li>
 </ul>
 </section>
-<section id="segment-selector" class="level3">
-<h3 class="anchored" data-anchor-id="segment-selector">segment selector</h3>
+<section id="segment-selector" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="segment-selector"><span class="header-section-number">1.1.2</span> segment selector</h3>
 <ul>
+<li>segment only paragraphs from the same page as pdf, no search anymore</li>
 <li>All works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix.</li>
 </ul>
 </section>
-</section>
-<section id="ui-sidebar" class="level2">
-<h2 class="anchored" data-anchor-id="ui-sidebar">UI Sidebar</h2>
+<section id="ui" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="ui"><span class="header-section-number">1.1.3</span> UI</h3>
 <ul>
 <li>OBE Logo</li>
 <li>Zweispaltiges Layout – switchbuttons – guide</li>
@@ -183,14 +178,13 @@ ul.task-list li input[type="checkbox"] {
 <li>submit</li>
 </ul></li>
 </ul>
-<section id="prompt" class="level3">
-<h3 class="anchored" data-anchor-id="prompt">prompt</h3>
+</section>
+<section id="prompt" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" class="anchored" data-anchor-id="prompt"><span class="header-section-number">1.1.4</span> prompt</h3>
 </section>
 </section>
-<section id="notebooks-for-processing" class="level2">
-<h2 class="anchored" data-anchor-id="notebooks-for-processing">Notebooks for processing</h2>
-<section id="mathpix" class="level3">
-<h3 class="anchored" data-anchor-id="mathpix">mathpix</h3>
+<section id="notebooks-for-processing" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="notebooks-for-processing"><span class="header-section-number">1.2</span> Notebooks for processing</h2>
 <ul>
 <li>linemmd.ipynb</li>
 </ul>
@@ -201,7 +195,6 @@ ul.task-list li input[type="checkbox"] {
 <p>processes the mathpix line-mmd and exports a json with page and paragraph information</p>
 
 
-</section>
 </section>
 </section>
 

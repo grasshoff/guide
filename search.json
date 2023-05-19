@@ -2,28 +2,28 @@
   {
     "objectID": "gui.html",
     "href": "gui.html",
-    "title": "UI",
+    "title": "1 UI",
     "section": "",
     "text": "OBE Logo\nZweispaltiges Layout – switchbuttons – guide\n\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\nLinke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning\n\n\n\n\n\n\ncached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
   },
   {
     "objectID": "gui.html#sidebar",
     "href": "gui.html#sidebar",
-    "title": "UI",
+    "title": "1 UI",
     "section": "",
     "text": "OBE Logo\nZweispaltiges Layout – switchbuttons – guide\n\nselectbox für\n\ncollection\nWerk\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit"
   },
   {
     "objectID": "gui.html#main",
     "href": "gui.html#main",
-    "title": "UI",
+    "title": "1 UI",
     "section": "",
     "text": "Linke Spalte\n\nAnzeige des PDF\n\nRechte Spalte\n\nAnzeige des Segments\nAnzeige der GPT Antwort\nReasoning"
   },
   {
     "objectID": "gui.html#second",
     "href": "gui.html#second",
-    "title": "UI",
+    "title": "1 UI",
     "section": "",
     "text": "cached load für\n\nentweder goldbach oder E57 als Instanz von Buch\n\nReasoning\n\nguide.lettre.digital"
   },
@@ -65,28 +65,21 @@
   {
     "objectID": "todo.html",
     "href": "todo.html",
-    "title": "Todo",
+    "title": "1 Todo",
     "section": "",
-    "text": "die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]\ndie .lines.md ist im gleichen verzeichnis\ndaraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen\n\n\n\n\n\nAll works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix.\n\n\n\n\n\n\nOBE Logo\nZweispaltiges Layout – switchbuttons – guide\nselectbox für\n\ncollection\nWork\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\n\n\n\n\n\nlinemmd.ipynb\n\ndownloads the mathpix line-mmd and the mmd of a pdf\n\nprocess_mathpix.ipynb\n\nprocesses the mathpix line-mmd and exports a json with page and paragraph information"
+    "text": "die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]\ndie .lines.md ist im gleichen verzeichnis\ndaraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen\n\n\n\n\n\nsegment only paragraphs from the same page as pdf, no search anymore\nAll works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix.\n\n\n\n\n\nOBE Logo\nZweispaltiges Layout – switchbuttons – guide\nselectbox für\n\ncollection\nWork\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit\n\n\n\n\n\n\n\n\n\n\nlinemmd.ipynb\n\ndownloads the mathpix line-mmd and the mmd of a pdf\n\nprocess_mathpix.ipynb\n\nprocesses the mathpix line-mmd and exports a json with page and paragraph information"
   },
   {
     "objectID": "todo.html#sidebar",
     "href": "todo.html#sidebar",
-    "title": "Todo",
+    "title": "1 Todo",
     "section": "",
-    "text": "die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]\ndie .lines.md ist im gleichen verzeichnis\ndaraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen\n\n\n\n\n\nAll works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix."
-  },
-  {
-    "objectID": "todo.html#ui-sidebar",
-    "href": "todo.html#ui-sidebar",
-    "title": "Todo",
-    "section": "",
-    "text": "OBE Logo\nZweispaltiges Layout – switchbuttons – guide\nselectbox für\n\ncollection\nWork\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit"
+    "text": "die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]\ndie .lines.md ist im gleichen verzeichnis\ndaraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen\n\n\n\n\n\nsegment only paragraphs from the same page as pdf, no search anymore\nAll works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix.\n\n\n\n\n\nOBE Logo\nZweispaltiges Layout – switchbuttons – guide\nselectbox für\n\ncollection\nWork\n\nEulerOO ID ISNB; Anzeige VOL Series:Nr\nEnestroem ID EN Nr\n\nAuswahl:\n\ngoldbach\nE57\n\n\nReasoning\n\nsegment\n\nslider (doppelt) über paragraphen der md\n\nquery\n\nTextfeld für message.usr\n\nReason flow\nsubmit"
   },
   {
     "objectID": "todo.html#notebooks-for-processing",
     "href": "todo.html#notebooks-for-processing",
-    "title": "Todo",
+    "title": "1 Todo",
     "section": "",
     "text": "linemmd.ipynb\n\ndownloads the mathpix line-mmd and the mmd of a pdf\n\nprocess_mathpix.ipynb\n\nprocesses the mathpix line-mmd and exports a json with page and paragraph information"
   },
@@ -128,28 +121,28 @@
   {
     "objectID": "collection.html",
     "href": "collection.html",
-    "title": "Volumes EulerOO",
+    "title": "1 Volumes EulerOO",
     "section": "",
     "text": "App to view and search all volumes of Euler Opera Omnia\nhttps://euler.lettre.digital\n\n\n\nView all volumes as PDF\nDocuments\n\nVolumes are divided into\n\nEnestroem publications\nEditorial essay\nIndices and registers\n\nEach part is a separate PDF\nDownload all volumes as PDF\n\nPowerful search across all volumes\n\nSearch table\n\ncan be filtered by column values\ncan be downloaded as csv\nInteractive selection to open referenced volumes\n\n\nScholarium\n\nPapers submitted as “Contribution” to the Bernoulli-Euler Commission\nSecondary literature\nComputational notebooks\nData\n\nDeployment\n\nApplication can be deployed flexibly on any server\nFast PDF server\n\nOpen access data published on Bernoulli Euler Kommission community on Zenodo\n\n\n\n\n\nResize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width\n\n\n\n\n\nTabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
   },
   {
     "objectID": "collection.html#function",
     "href": "collection.html#function",
-    "title": "Volumes EulerOO",
+    "title": "1 Volumes EulerOO",
     "section": "",
     "text": "View all volumes as PDF\nDocuments\n\nVolumes are divided into\n\nEnestroem publications\nEditorial essay\nIndices and registers\n\nEach part is a separate PDF\nDownload all volumes as PDF\n\nPowerful search across all volumes\n\nSearch table\n\ncan be filtered by column values\ncan be downloaded as csv\nInteractive selection to open referenced volumes\n\n\nScholarium\n\nPapers submitted as “Contribution” to the Bernoulli-Euler Commission\nSecondary literature\nComputational notebooks\nData\n\nDeployment\n\nApplication can be deployed flexibly on any server\nFast PDF server\n\nOpen access data published on Bernoulli Euler Kommission community on Zenodo"
   },
   {
     "objectID": "collection.html#interface",
     "href": "collection.html#interface",
-    "title": "Volumes EulerOO",
+    "title": "1 Volumes EulerOO",
     "section": "",
     "text": "Resize window of browser\nzoom to appropriate font size\ndrag sidebar to the right width"
   },
   {
     "objectID": "collection.html#documents",
     "href": "collection.html#documents",
-    "title": "Volumes EulerOO",
+    "title": "1 Volumes EulerOO",
     "section": "",
     "text": "Tabs contain a table of Euler Opera Omnia volumes\nClicks on table item loads the volume as pdf (in parts to avoid long download times)\n\n\n\nVideo\nseries"
   }
