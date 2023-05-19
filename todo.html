@@ -105,10 +105,18 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#todo" id="toc-todo" class="nav-link active" data-scroll-target="#todo">Todo</a>
   <ul class="collapse">
-  <li><a href="#eulergpt" id="toc-eulergpt" class="nav-link" data-scroll-target="#eulergpt">eulerGPT</a>
+  <li><a href="#sidebar" id="toc-sidebar" class="nav-link" data-scroll-target="#sidebar">sidebar</a>
   <ul class="collapse">
-  <li><a href="#ui" id="toc-ui" class="nav-link" data-scroll-target="#ui">UI</a></li>
-  <li><a href="#funktion" id="toc-funktion" class="nav-link" data-scroll-target="#funktion">Funktion</a></li>
+  <li><a href="#works" id="toc-works" class="nav-link" data-scroll-target="#works">works</a></li>
+  <li><a href="#segment-selector" id="toc-segment-selector" class="nav-link" data-scroll-target="#segment-selector">segment selector</a></li>
+  </ul></li>
+  <li><a href="#ui-sidebar" id="toc-ui-sidebar" class="nav-link" data-scroll-target="#ui-sidebar">UI Sidebar</a>
+  <ul class="collapse">
+  <li><a href="#prompt" id="toc-prompt" class="nav-link" data-scroll-target="#prompt">prompt</a></li>
+  </ul></li>
+  <li><a href="#notebooks-for-processing" id="toc-notebooks-for-processing" class="nav-link" data-scroll-target="#notebooks-for-processing">Notebooks for processing</a>
+  <ul class="collapse">
+  <li><a href="#mathpix" id="toc-mathpix" class="nav-link" data-scroll-target="#mathpix">mathpix</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -125,18 +133,32 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="todo" class="level1">
 <h1>Todo</h1>
-<section id="eulergpt" class="level2">
-<h2 class="anchored" data-anchor-id="eulergpt">eulerGPT</h2>
-<section id="ui" class="level3">
-<h3 class="anchored" data-anchor-id="ui">UI</h3>
-<section id="sidebar" class="level4">
-<h4 class="anchored" data-anchor-id="sidebar">Sidebar</h4>
+<section id="sidebar" class="level2">
+<h2 class="anchored" data-anchor-id="sidebar">sidebar</h2>
+<section id="works" class="level3">
+<h3 class="anchored" data-anchor-id="works">works</h3>
 <ul>
-<li>BEG Logo</li>
-<li>Zweispaltiges Layout, mit switchbuttons in sidebar</li>
-<li>selectbox für</li>
+<li>die rev goldbach.pdf. liegt in eulerOO/rev/[isbn.pdf]</li>
+<li>die .lines.md ist im gleichen verzeichnis</li>
+<li>daraus ist noch mit dem nb process_mathpix.ipynb die .mmd zu erstellen</li>
+</ul>
+</section>
+<section id="segment-selector" class="level3">
+<h3 class="anchored" data-anchor-id="segment-selector">segment selector</h3>
+<ul>
+<li>All works should have corresponding para-mmd. (mit process_mathpix. Their text is processed from the mathpix line-mmd with procLineMMD.ipynb. It generates a JSON file with the page and paragraph information. The paragraph information is used to generate the para-mmd. The mmd is mathematical-markdown format from mathpix.</li>
+</ul>
+</section>
+</section>
+<section id="ui-sidebar" class="level2">
+<h2 class="anchored" data-anchor-id="ui-sidebar">UI Sidebar</h2>
+<ul>
+<li>OBE Logo</li>
+<li>Zweispaltiges Layout – switchbuttons – guide</li>
+<li>selectbox für
+<ul>
 <li>collection</li>
-<li>Werk
+<li>Work
 <ul>
 <li>EulerOO ID ISNB; Anzeige VOL Series:Nr</li>
 <li>Enestroem ID EN Nr</li>
@@ -145,6 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>goldbach</li>
 <li>E57</li>
+</ul></li>
 </ul></li>
 <li>Reasoning
 <ul>
@@ -160,33 +183,22 @@ ul.task-list li input[type="checkbox"] {
 <li>submit</li>
 </ul></li>
 </ul>
+<section id="prompt" class="level3">
+<h3 class="anchored" data-anchor-id="prompt">prompt</h3>
 </section>
-<section id="main" class="level4">
-<h4 class="anchored" data-anchor-id="main">Main</h4>
+</section>
+<section id="notebooks-for-processing" class="level2">
+<h2 class="anchored" data-anchor-id="notebooks-for-processing">Notebooks for processing</h2>
+<section id="mathpix" class="level3">
+<h3 class="anchored" data-anchor-id="mathpix">mathpix</h3>
 <ul>
-<li>Linke Spalte
-<ul>
-<li>Anzeige des PDF</li>
-</ul></li>
-<li>Rechte Spalte
-<ul>
-<li>Anzeige des Segments</li>
-<li>Anzeige der GPT Antwort</li>
-<li>Reasoning</li>
-</ul></li>
+<li>linemmd.ipynb</li>
 </ul>
-</section>
-</section>
-<section id="funktion" class="level3">
-<h3 class="anchored" data-anchor-id="funktion">Funktion</h3>
+<p>downloads the mathpix line-mmd and the mmd of a pdf</p>
 <ul>
-<li>cached load für
-<ul>
-<li>entweder goldbach oder E57 als Instanz von Buch</li>
-</ul></li>
-<li>Reasoning</li>
+<li>process_mathpix.ipynb</li>
 </ul>
-<p><a href="http://guide.lettre.digital">guide.lettre.digital</a></p>
+<p>processes the mathpix line-mmd and exports a json with page and paragraph information</p>
 
 
 </section>
